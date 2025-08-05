@@ -46,7 +46,7 @@
 
 OTProxy
 ------
-OTProxy是一个OmniTrack的附属插件，它允许您让服务器与面板共用同一个端口，使得单端口的面板服(如简幻欢)也能正常使用
+OTProxy是一个OmniTrack的附属插件，它允许您让服务器与面板共用同一个端口，使得单端口的面板服(如简幻欢)也能正常使用OmniTrack
 ### 下载
 - [OmniTrack官网](https://omnitrack.ngup.eu.org/otproxy)
 
