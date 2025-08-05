@@ -60,7 +60,7 @@ OTProxy是一个OmniTrack的附属插件，它允许您让服务器与面板共�
 3. 将插件文件放入`/plugins`文件夹中
 4. 打开`server.properties`,修改`server-port`的值，改成25585或者其他的，使其与服务器连接端口不同
 5. 重启服务器
-6. 端口`/plugins/OTProxy/config.yml`,修改`ProxyPort`的值，使其与服务器连接端口一致
+6. 打开`/plugins/OTProxy/config.yml`,修改`ProxyPort`的值，使其与服务器连接端口一致
 
 ### 一些问题及解决方法
 Q：在使用时控制台有时会弹出红色错误怎么办？  
