@@ -44,6 +44,20 @@
 3. 登录面板，默认账号`default`密码`OmniTrack`,登录后可前往设置修改账号和密码  
 <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/b064e85b-e8d3-449b-9043-3add7fabf521" />
 
+注册
+------
+### 设备绑定
+在插件安装后，登录面板，会弹出设备绑定提示框。
+1. 点击`登录`按钮，会自动跳转至设备管理系统，如没有登录，会自动跳转至OmniTrack登录网关，如没有OmniTrack账号，请前往[OmniTrack官网](https://omnitrack.ngup.eu.org/register)注册。
+2. 登录OmniTrack账号后，会自动跳转至设备绑定页面。输入设备名称后，点击`绑定设备`按钮即可完成绑定。
+3. 注意：一个OmniTrack账号至多绑定2台设备。每个OmniTrack账号的单月邮件发送次数是有限的，详细可前往[设备管理系统](https://console.ngup.eu.org/)查看。
+
+### 商店登录
+OmniTrack自带系统商店，在没有登录商店的情况下，用户只能浏览插件列表，不能进行安装操作。**使用OmniTrack商店无需支付任何费用，每个OmniTrack账号单日至多下载`100`个插件**
+1. 登录面板后，点击`插件商店`，会弹出商店公告，点击`好的`按钮即可关闭，关闭后会看见**登录OmniTrack**提示框，点击`登录`按钮，会自动跳转至OmniTrack登录网关。
+2. 输入账号密码即可登录，如没有OmniTrack账号，请前往[OmniTrack官网](https://omnitrack.ngup.eu.org/register)注册。
+3. 登录成功后，会自动跳转并授权设备，等待绑定页面关闭后会自动返回控制台页面，如提示`登录失败，请重试!`请尝试重新登录，如问题仍然未得到解决，请前往[QQ群](https://qm.qq.com/q/NrAST9Uqie)寻求帮助。
+
 OTProxy
 ------
 OTProxy是一个OmniTrack的附属插件，它允许您让服务器与面板共用同一个端口，使得单端口的面板服(如简幻欢)也能正常使用OmniTrack
