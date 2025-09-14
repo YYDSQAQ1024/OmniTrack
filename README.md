@@ -84,7 +84,7 @@ A：正常情况，无需在意
 
 
 Q：简幻欢修改端口后启动服务器端口又被改回去了怎么办？  
-~~A：在服务器根目录(有启动脚本的文件夹)创建一个新的文件夹`server`，将所有服务端有关的文件(启动脚本除外)放入`server`文件夹中，修改位于`server`文件夹中的`server.properties`。打开启动脚本，在`${openjdk21} -Xms1024M -Xmx${maxmem}M -jar server-release.jar`的前面添加代码`cd server`，至此大功告成！开启服务器后，服务器根目录会出现一个server.properties文件，这个文件是面板生成的，不必理会。如要修改服务器参数，请前往`/server/server.properties`修改。 ~~(想被封号就这么做)
+~A：在服务器根目录(有启动脚本的文件夹)创建一个新的文件夹`server`，将所有服务端有关的文件(启动脚本除外)放入`server`文件夹中，修改位于`server`文件夹中的`server.properties`。打开启动脚本，在`${openjdk21} -Xms1024M -~Xmx${maxmem}M -jar server-release.jar`的前面添加代码`cd server`，至此大功告成！开启服务器后，服务器根目录会出现一个server.properties文件，这个文件是面板生成的，不必理会。如要修改服务器参数，请前往`/server/server.properties`修改。
 
 
 API/插件开发
