@@ -12,7 +12,7 @@
 - [爱发电](https://afdian.com/a/lao_wang)
 
 ### 它能干什么？
-1. 解除简幻欢限制(其他面板服也行)，解压、压缩文件无需排队，无需IP白名单就能登录，服务器运行时也能管理文件
+1. ~解除简幻欢限制(其他面板服也行)，解压、压缩文件无需排队，无需IP白名单就能登录，服务器运行时也能管理文件~(想被封号就这么做)
 2. 远程查看服务器状态
 3. 远程安装、卸载插件
 4. 远程管理、封禁、解禁玩家
@@ -82,8 +82,11 @@ OTProxy是一个OmniTrack的附属插件，它允许您让服务器与面板共�
 Q：在使用时控制台有时会弹出红色错误怎么办？  
 A：正常情况，无需在意  
 
+
 Q：简幻欢修改端口后启动服务器端口又被改回去了怎么办？  
-A：在服务器根目录(有启动脚本的文件夹)创建一个新的文件夹`server`，将所有服务端有关的文件(启动脚本除外)放入`server`文件夹中，修改位于`server`文件夹中的`server.properties`。打开启动脚本，在`${openjdk21} -Xms1024M -Xmx${maxmem}M -jar server-release.jar`的前面添加代码`cd server`，至此大功告成！开启服务器后，服务器根目录会出现一个server.properties文件，这个文件是面板生成的，不必理会。如要修改服务器参数，请前往`/server/server.properties`修改。  
+~
+A：在服务器根目录(有启动脚本的文件夹)创建一个新的文件夹`server`，将所有服务端有关的文件(启动脚本除外)放入`server`文件夹中，修改位于`server`文件夹中的`server.properties`。打开启动脚本，在`${openjdk21} -Xms1024M -Xmx${maxmem}M -jar server-release.jar`的前面添加代码`cd server`，至此大功告成！开启服务器后，服务器根目录会出现一个server.properties文件，这个文件是面板生成的，不必理会。如要修改服务器参数，请前往`/server/server.properties`修改。 
+~(想被封号就这么做)
 
 API/插件开发
 ------
