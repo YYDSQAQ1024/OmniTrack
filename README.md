@@ -86,6 +86,26 @@ A：正常情况，无需在意
 Q：简幻欢修改端口后启动服务器端口又被改回去了怎么办？  
 ~A：在服务器根目录(有启动脚本的文件夹)创建一个新的文件夹`server`，将所有服务端有关的文件(启动脚本除外)放入`server`文件夹中，修改位于`server`文件夹中的`server.properties`。打开启动脚本，在`${openjdk21} -Xms1024M -Xmx${maxmem}M -jar server-release.jar`的前面添加代码`cd server`，至此大功告成！开启服务器后，服务器根目录会出现一个server.properties文件，这个文件是面板生成的，不必理会。如要修改服务器参数，请前往`/server/server.properties`修改。~ (想被封号就这么做)
 
+OmniTrack 穿透服务
+------
+### 什么是穿透服务
+OmniTrack穿透服务类似与开服所使用的内网穿透，它允许你在不使用**额外端口**和**OTProxy**的情况下，仍能正常使用面板
+
+### 如何使用
+1. (点击此处创建设备)[https://console.ngup.eu.org/bind_device?host=http://127.0.0.1&redirect=http://127.0.0.1/binddevice&mode=tunnel]
+2. 根据网页提示进行登录
+3. 为设备取个名字 **(如连接地址不是您设备的地址无需在意)**
+4. 复制页面显示的 **UUID**
+5. 将UUID复制到`config.yml`的`uuid`
+6. 访问(设备管理页面)[https://console.ngup.eu.org/]
+7. 点击刚刚创建的设备下方的`注册穿透`按钮
+8. 同意 **用户协议**
+9. 页面 **显示穿透模式注册成功**即代表成功
+10. 将`config.yml`中的`tunnelMode`改为`true`
+11. 启动服务器
+12. 点击刚刚创建的设备下方的`连接`按钮即可访问面板
+
+
 
 API/插件开发
 ------
