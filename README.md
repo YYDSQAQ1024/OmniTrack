@@ -92,12 +92,12 @@ OmniTrack 穿透服务
 OmniTrack穿透服务类似与开服所使用的内网穿透，它允许你在不使用**额外端口**和**OTProxy**的情况下，仍能正常使用面板
 
 ### 如何使用
-1. (点击此处创建设备)[https://console.ngup.eu.org/bind_device?host=http://127.0.0.1&redirect=http://127.0.0.1/binddevice&mode=tunnel]
+1. [点击此处创建设备](https://console.ngup.eu.org/bind_device?host=http://127.0.0.1&redirect=http://127.0.0.1/binddevice&mode=tunnel)
 2. 根据网页提示进行登录
 3. 为设备取个名字 **(如连接地址不是您设备的地址无需在意)**
 4. 复制页面显示的 **UUID**
 5. 将UUID复制到`config.yml`的`uuid`
-6. 访问(设备管理页面)[https://console.ngup.eu.org/]
+6. 访问[设备管理页面](https://console.ngup.eu.org/)
 7. 点击刚刚创建的设备下方的`注册穿透`按钮
 8. 同意 **用户协议**
 9. 页面 **显示穿透模式注册成功**即代表成功
